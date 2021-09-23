@@ -35,11 +35,8 @@ I've included 4 screenshots in the `/screenshots` folder: mobile, tablet, deskto
 
 ### Links
 
-I'll update these after submitting the solution and creating a live site. These are just placeholders
-for now.
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+[- Solution URL](https://www.frontendmentor.io/solutions/mobilefirst-solution-using-bem-naming-convention-and-flexbox-jkG0sHcID)
+[- Live Site URL](https://victor-nyagudi.github.io/stats-preview-card-component/)
 
 ## My process
 
