@@ -47,10 +47,12 @@ Had a little trouble with margins and padding on this one, especially centering 
 it out eventually.
 
 The image used in the design had a purple filter applied, but the one in `/images` folder was black and white.
-I've explored multiple ways to change it to that color e.g. external photo editing software and the 
-`filter` property, but I can't figure out how to do it.
 
-I'll update this README when I'm able to make that change. 
+After submitting my solution and asking a question, some really helpful people popped into the comments and 
+introduced me to the `background-blend-mode` CSS property which can be used to blend the background color with a 
+background image.
+
+I used this along with a few changes in the `filter` property to arrive at the final color. 
 
 ### Built with
 
@@ -65,6 +67,11 @@ I learned how you can change the filter on images using the `filter` property. I
 on background images and flexbox. 
 
 I used `flex-flow: row-reverse;` to change the order of the items - something I haven't used much until now - so I guess I can include that in things I learned.
+
+This is the first time I've heard of and used `background-blend-mode`. It made life much easier for me, and I'm
+glad I learned about it. 
+
+Found this very [helpful article](https://css-tricks.com/almanac/properties/b/background-blend-mode/) that explained it clearly and concisely.
 
 ### Continued development
 
