@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+$primary-font: 'Inter', sans-serif;
+$secondary-font: 'Lexend Deca', sans-serif;
+
+$font-weights: (
+    "regular": 400,
+    "bold": 700
+);
+
+$colors: (
+    // main background
+    "very-dark-blue": hsl(233, 47%, 7%),
+
+    // card background
+    "dark-desaturated-blue": hsl(244, 38%, 16%),
+
+    // accent
+    "soft-violet": hsl(277, 64%, 61%),
+
+    // main heading, stats
+    "white": hsl(0, 0%, 100%),
+
+    // main paragraph
+    "slightly-transparent-white": hsla(0, 0%, 100%, 0.75),
+
+    // stat headings
+    "slightly-more-transparent-white": hsla(0, 0%, 100%, 0.6)
+);
+
+$border-radius: 7px;
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+@function getColor($color) {
+    @return map-get($map: $colors, $key: $color);
+}
+
+@function getWeight($weight) {
+    @return map-get($map: $font-weights, $key: $weight);
+}
+
+@mixin media-one {
+    @media (min-width: 1320px) {
+        @content;
+    }
+}
+
+@mixin media-two {
+    @media (min-width: 1355px) {
+        @content;
+    }
+}
+
+@mixin media-three {
+    @media (min-width: 1440px) {
+        @content;
+    }
+}
