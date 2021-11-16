@@ -57,7 +57,7 @@ I used this along with a few changes in the `filter` property to arrive at the f
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
+- SCSS
 - Flexbox
 - Mobile-first workflow
 
